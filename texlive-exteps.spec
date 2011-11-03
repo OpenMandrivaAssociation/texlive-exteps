@@ -1,3 +1,9 @@
+# revision 19859
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/exteps
+# catalog-date 2007-03-06 10:34:25 +0100
+# catalog-license gpl
+# catalog-version 0.41
 Name:		texlive-exteps
 Version:	0.41
 Release:	1
@@ -43,6 +49,7 @@ output.
 %doc %{_texmfdistdir}/doc/metapost/exteps/delfin
 %doc %{_texmfdistdir}/doc/metapost/exteps/exteps.pdf
 %doc %{_texmfdistdir}/doc/metapost/exteps/exteps.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ output.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
