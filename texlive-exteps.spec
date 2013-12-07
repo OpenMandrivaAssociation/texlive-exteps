@@ -6,7 +6,7 @@
 # catalog-version 0.41
 Name:		texlive-exteps
 Version:	0.41
-Release:	5
+Release:	6
 Summary:	Include EPS figures in MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/exteps
