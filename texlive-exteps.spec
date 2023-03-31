@@ -1,6 +1,6 @@
 Name:		texlive-exteps
 Version:	19859
-Release:	1
+Release:	2
 Summary:	Include EPS figures in MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/exteps
